@@ -1,0 +1,29 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="https://github.com/jaysp97" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="https://www.linkedin.com/in/pat-jay/" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:patjay0212@gmail.com" target='_blank'>patjay0212@gmail.com </a>
+        </div>
+
+        <div class="footer-credits text-center" >
+            <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_andresjose", "footer", "click")' href="https://github.com/mufeez1" target="_blank" rel="nofollow noopener noreferrer">
+                <div style="font-size: larger;">Built by Jay Patil</div>
+            </a>
+            <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_brittany", "footer", "click")' href="https://github.com/andresjosehr/andresjosehr-portfolio" target="_blank" rel="nofollow noopener noreferrer">
+                <div class="mt-2" style="font-size: x-small;">Designed by Brittany Chiang & Jośe Andreś</div>
+            </a>
+        </div>
+    </div>
+
+</footer>

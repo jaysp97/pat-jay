@@ -1,0 +1,148 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Education",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "Jay_Patil_Resume.pdf",
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I am a <span class='underline'>problem-solving enthusiast</span> with an insatiable curiosity for technology and innovation, paired with a passion for football that mirrors my team spirit and <span class='underline'>versatility</span>. My diverse skill set in software development and keen interest in <span class='underline'>continuous learning</span> make me a valuable team player, ready to tackle challenges and contribute to my <span class='underline'>team's success</span> in dynamic environments.",
+    "Banner.ActionBtn": "Get in touch",
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "A highly skilled <span class='underline'>Full Stack Software Engineer</span> with a robust background in developing innovative web applications, <span class='underline'>machine learning models</span> and software solutions. Expertise spans across a wide range of programming languages <span class='underline'>(Python3, JavaScript, SQL, C++, C#, Java)</span> and web technologies <span class='underline'>(NodeJS, ReactJS, Angular, Flask,</span> <span class='underline'>NextJS, Web3)</span>.",
+        "Demonstrated success in collaborative environments, with notable projects including enterprise scale big data visualization web applications, <span class='underline'>efficient data retrieval systems</span>, and cutting-edge technology implementations like a <span class='underline'>De-Fi Dashboard, Attention Mechanisms</span> <span class='underline'>in Image Captioning</span>. Proven ability to leverage modern tools and frameworks <span class='underline'>(Git, Azure,</span> <span class='underline'>Docker, Terraform)</span> to enhance project outcomes and streamline development processes.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "Veritas",
+            "Company": "Veritas Technologies LLC",
+            "Title": "Software Engineer",
+            "Date": "September 2020 - July 2022",
+            "Description": [
+                "Worked in a collaborative culture with the Enterprise Vault.cloud team to develop a frontend user interface of Veritas Alta to facilitate the data discovery from major data sources like Slack, Teams, Outlook, OneDrive, Bloomberg, etc.",
+                "Took the ownership to update old code base to modern development standards, reducing loading time of the application by 46% using HTML/CSS, JavaScript, Angular and C#. Resulted in big influx of new customers.",
+                "Implemented REST API-centric architecture using C# to enhance retrieval of data from Azure Blob storage in .NET by 27%.",
+                "Designed database, backend and developed stored procedures using SQL in MSSQL for efficient database management.",
+                "Coordinated efficient large-scale features deployments using Terraform and Puppet and managed CI/CD using TFS."
+            ]
+        },
+        {
+            "Tab": "Rutgers",
+            "Company": "Antonina Mitrofanova Lab",
+            "Title": "Research Assistant (Software Developer)",
+            "Date": "September 2022 - Present",
+            "Description": [
+                "Designed and developed a user-engaging and cross-browser compatible web application for data visualization of complex splicing networks using HTML, CSS, TypeScript, Angular, and Cytoscape.js.",
+                "Assisted in data collection, analysis and interpretation of Gene Data using Python and statistical techniques."
+            ]
+        },
+        
+        
+        {
+            "Tab": "Espressif",
+            "Company": "Espressif Systems",
+            "Title": "Project Intern",
+            "Date": "May 2019 - May 2020",
+            "Description": [
+                "Beat Google to port TensorFlow model to ESP-32 microcontroller having a memory of mere 4MB and achieving the task more efficiently. Reduced the size of an object detection model by 28% by converting it to TensorFlow Lite model.",
+                "Designed a Blind Aid System using C to help visually impaired people identify nearby objects by mounting the ESP-32 micro-controller on the user’s walking stick and fixed haptic sensors to provide haptic feedback of any danger to the user."
+            ]
+        }
+    ],
+    "Education":[
+        {
+        "Tab": "Masters",
+        "Degree":"MS in Computer Science", 
+        "College":"Rutgers University (NJ, USA)", 
+        "Date": "September 2022 - May 2024",
+        "Courses": "<span class='underline'>Courses:</span> Algorithms, Machine Learning, Computer Vision, Distributed Systems, OS, DBMS"
+            
+    },
+        {
+        "Tab": "Bachelors",
+        "Degree":"BE in Computer Engineering", 
+        "College":"Pune Institute of Computer Technology (Pune, India)", 
+        "Date": "August 2016 - May 2020",
+        "Courses": "<span class='underline'>Courses:</span> Advanced Data Structures, Computer Networks, Computer Architecture"
+    }
+    ],
+   
+    "OtherProjects.Title": "Personal Projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Attention Mechanisms in Image Captioning",
+            "Description": "Led a comprehensive comparative analysis of RATT, XLAN, and Dual Attention models in Computer Vision. Utilized TensorFlow and PyTorch frameworks to meticulously implement and fine-tune the models. Employed the METEOR metric to assess the quality of complex texts, providing nuanced insights into the strengths and potential areas for enhancement of each model.",
+            "ghLink": "https://github.com/jaysp97",
+            "demoLink": "",
+            "Technologies": [
+                "Python3",
+                "Flask",
+                "HTML/ CSS"
+            ]
+        },
+        {
+            "Title": "De-Fi Dashboard",
+            "Description": "Developed a De-Fi dashboard that allows user to track live crypto prices such as BitCoin, Ethereum, MayaPreferred, etc. by leveraging Web3 API’s. Seamless connection to wallets such as MetaMask, TestNet etc. allows user to view all asset balances, transactions. Implemented Google O’Auth to add a security layer to the application. Built using, NextJS, MySQL, Wagmi.",
+            "ghLink": "https://github.com/jaysp97",
+            "Technologies": [
+                "NextJS",
+                "Google O'Auth",
+                "Web3",
+                "MySQL",
+                "Wagmi"
+            ]
+        },
+        {
+            "Title": "Collaborative Editor",
+            "Description": "Designed and developed a real-time collaborative editor that enabled multiple users to edit, collaborate and improve content simultaneously using Operational Transformation. Used HAProxy as Load Balancer to support substantial traffic loads and to make the application easily scalable. Implemented publish subscribe message broker functionality using Redis.",
+            "ghLink": "https://github.com/jaysp97",
+            "demoLink": "",
+            "Technologies": [
+                "Redis",
+                "HAProxy",
+                "Operational Transformation"
+            ]
+        },
+        {
+            "Title": "Online Auction System",
+            "Description": "Developed an easily scalable online auction system similar to eBay that allowed users to post an auction for their items, potential buyers to bid for products, and the ability to ‘Automatic Bidding.’ Enhanced the system to handle multiple concurrent client requests and provide email alerts to users based on bid updates and new item availability.",
+            "ghLink": "https://github.com/jaysp97",
+            "demoLink": "",
+            "Technologies": [
+                "Java",
+                "React",
+                "MySQL",
+                "JavaScript"
+            ]
+        },
+        {
+            "Title": "Smart Parking System",
+            "Description": "The main aim of this project was to automate the parking system using RFID. Developed an android application using Java hosted on Firebase for accurately allocating a parking spot to a vehicle based on the sensor data from an RFID tag and an RFID reader.Implemented a payment system in the application based on in-app credits and storing the user data in Firebase.",
+            "ghLink": "https://github.com/jaysp97",
+            "demoLink": "",
+            "Technologies": [
+                "Python",
+                "Android Studio",
+                "Firebase"
+            ]
+        },
+        {
+            "Title": "Predicting Likelihood of IT Job Seekers Obtaining an Offer",
+            "Description": "Employed six classification algorithms, namely Logistic Regression, Naive Bayes, Support Vector Machine, Random Forest, K-Nearest Neighbors (K-NN), and Decision Tree, to predict potential IT employees using campus placement data of PICT.The trained models unveiled that this work was helpful for IT companies to identify potential employees and can be extended to other domains of employment.",
+            "ghLink": "https://github.com/jaysp97",
+            "demoLink": "",
+            "Technologies": [
+                "Python",
+                "NumPy",
+                "Keras"
+            ]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+}
